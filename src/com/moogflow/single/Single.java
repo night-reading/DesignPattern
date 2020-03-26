@@ -17,7 +17,7 @@ class SingleLazy {
 
     private static SingleLazy singleLazy = null;
 
-    public synchronized static  SingleLazy getSingle() {
+    public synchronized static SingleLazy getSingle() {
         if (singleLazy == null) {
             singleLazy = new SingleLazy();
             return singleLazy;
