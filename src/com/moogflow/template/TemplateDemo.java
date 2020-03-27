@@ -25,7 +25,7 @@ abstract class AbsClass {
     // 基本方法2
     abstract void doSomething2();
 
-    void templateMethod() {
+   final void templateMethod() {
         // 调用基本方法
         this.doSomething1();
         this.doSomething2();
